@@ -66,3 +66,7 @@ d8"          `8ba,  ,ad8' d8"         d8"
     background-color: #C24434;
     border-color: #C24434;
 }
+
+.btn-check:active+.btn-info:focus, .btn-check:checked+.btn-info:focus, .btn-info.active:focus, .btn-info:active:focus, .show>.btn-info.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgb(194 68 52 / 50%);
+}

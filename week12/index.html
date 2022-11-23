@@ -1,0 +1,66 @@
+<!doctype html>
+
+<!--
+SANTIAGO BAROCIO'S ASCII FOR 2022 :
+                                                                                                
+ ad88888ba       88   888b      88    ad888888b,     ,a8888a,    8b        d8          
+d8"     "8b    ,d88   8888b     88   d8"     "88   ,8P"'  `"Y8,   Y8,    ,8P           
+Y8,          888888   88 `8b    88           a8P  ,8P        Y8,   Y8,  ,8P            
+`Y8aaaaa,        88   88  `8b   88        ,d8P"   88          88    "8aa8"             
+  `"""""8b       88   88   `8b  88      a8P"      88          88     `88'              
+        `8b      88   88    `8b 88    a8P'        `8b        d8'      88    aaa  
+Y8a     a8P      88   88     `8888   d8"           `8ba,  ,ad8'       88    "88  
+ "Y88888P"       88   88      `888   88888888888     "Y8888P"         88    d8'  
+                                                                           8"                                                                        
+ ad888888b,    ,a8888a,    ad888888b,  ad888888b,  
+d8"     "88  ,8P"'  `"Y8, d8"     "88 d8"     "88  
+        a8P ,8P        Y8,        a8P         a8P  
+     ,d8P"  88          88     ,d8P"       ,d8P"   
+   a8P"     88          88   a8P"        a8P"      
+ a8P'       `8b        d8' a8P'        a8P'        
+d8"          `8ba,  ,ad8' d8"         d8"          
+88888888888    "Y8888P"   88888888888 88888888888                                                     
+-->	
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Interactive animation with P5js</title>
+	
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0px 0px 50px 0px;
+        }
+
+        canvas {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <hr>
+    <canvas id="myGame" width="800" height="600">
+        Please install a newer broswer to play this game.
+    </canvas>
+    <hr>
+
+    <button id="colorRand">Randomize Color!</button>
+    <hr>
+    
+    <label for="redValue">Red Value:</label>
+    <input type="range" id="redValue" min="0" max="255">
+
+    <label for="greenValue">Green Value:</label>
+    <input type="range" id="greenValue" min="0" max="255">
+
+    <label for="blueValue">Blue Value:</label>
+    <input type="range" id="blueValue" min="0" max="255">
+
+    <script src="canvasStatic.js"></script>
+    <script src="canvasGame.js"> </script>
+	<script src="sketch.js"> </script>
+</body>
+</html>
